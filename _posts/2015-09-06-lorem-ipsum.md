@@ -1,5 +1,5 @@
 ---
-title: Lorem Ipsum
+title: Archive 1
 updated: 2015-09-06 15:56
 ---
 

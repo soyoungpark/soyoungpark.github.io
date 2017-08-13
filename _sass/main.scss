@@ -50,10 +50,10 @@ blockquote {
   text-align: center;
   animation-duration: 0.7s;
   animation-fill-mode: both;
-  animation-name: bounce;
+  animation-name: fadein;
   -webkit-animation-duration: 0.7s;
   -webkit-animation-fill-mode: both;
-  -webkit-animation-name: bounce;
+  -webkit-animation-name: fadein;
   a {
     background: #ddd url("gravatar_wrapper.png");
     color: #000;
@@ -333,6 +333,15 @@ section {
     }
   }
 }
+
+@-webkit-keyframes fadein {
+  0%,100% { opacity: 0; }
+}
+
+@keyframes fadein {
+  0%,100% { opacity: 0; }
+}
+
 @keyframes bounce {0% {
     transform: translate3d( 0, -1000px, 0 );
   }

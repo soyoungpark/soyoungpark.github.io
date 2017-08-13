@@ -334,12 +334,14 @@ section {
   }
 }
 
-@-webkit-keyframes fadein {
+@-webkit-keyframes fadeinout {
   0%,100% { opacity: 0; }
+  50% { opacity: 1; }
 }
 
-@keyframes fadein {
+@keyframes fadeinout {
   0%,100% { opacity: 0; }
+  50% { opacity: 1; }
 }
 
 @keyframes bounce {0% {

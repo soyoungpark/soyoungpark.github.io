@@ -8,7 +8,7 @@ description: A blog about technology and stuff related
 # if it's an external image, update below for true
 # better with square images
 external-image: true
-picture: assets/images/unithon.jpg
+picture: assets/images/soyoungpark.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -53,11 +53,11 @@ stackoverflow: 7044681/mystackoverflow
 email: ampersands.exit@gmail.com
 
 authors:
-    johndoe:
+    soyoungpark:
         name: SoYoung Park
         bio: computer science + urban studies 
         external-image: false
-        picture: assets/images/unithon.jpg
+        picture: assets/images/soyoungpark.jpg
         twitter: soyoung_park
     jamesfoster:
         name: James Foster

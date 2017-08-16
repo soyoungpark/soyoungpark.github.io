@@ -56,7 +56,7 @@ authors:
     soyoungpark:
         name: SoYoung Park
         bio: computer science + urban studies 
-        external-image: false
+        external-image: true
         picture: assets/images/soyoungpark.jpg
         twitter: soyoung_park
     jamesfoster:

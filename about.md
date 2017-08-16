@@ -6,16 +6,33 @@ layout: page
 
 <p>I am a software engineer with interest in turning increasingly large volume of city-produced data to meaningful insight. </p>
 
-<h2>Skills</h2>
+<h2>Main Skills</h2>
 
 <ul class="skill-list">
-	<li>PHP</li>
-	<li>Python</li>
-	<li>JavaScript</li>
-	<li>Css Frameworks (Bootstrap, Foundation)</li>
-	<li>NodeJS</li>
-	<li>MySQL</li>
+	<li>Server-side programming: PHP, Python, JavaScript/NodeJS</li>
+	<li>Object-oriented programming, Interface design: Java</li>
+	<li>Web frameworks: CodeIgniter, Express (NodeJS), Flask</li>
+	<li>Scripting: bash, Python</li>
+	<li>Relational database design &amps; refactoring: MySQL</li>
+	<li>Amazon Web Services: EC2, S3, RDS</li>
 	<li>TDD and Continuous Integration</li>
+	<li>Front-end: HTML, CSS, JavaScript/jQuery</li>
+	<li>Templating engines: smarty (PHP), jade (NodeJS)</li>
+	<li>C</li>
+</ul>
+
+<h2>Have Experience</h2>
+
+<ul class="skill-list">
+	<li>OCaml</li>
+	<li>Prolog</li>
+	<li>Design Pattern</li>
+	<li>Assembly Language</li>
+	<li>Ruby on Rails</li>
+	<li>Arduino</li>
+	<li>*nix</li>
+	<li>C++</li>
+	<li>C#</li>
 </ul>
 
 <h2>Projects</h2>

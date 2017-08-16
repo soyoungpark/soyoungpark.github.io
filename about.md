@@ -13,7 +13,7 @@ layout: page
 	<li>Object-oriented programming, Interface design: Java</li>
 	<li>Web frameworks: CodeIgniter, Express (NodeJS), Flask</li>
 	<li>Scripting: bash, Python</li>
-	<li>Relational database design &amps; refactoring: MySQL</li>
+	<li>Relational database design &amp; refactoring: MySQL</li>
 	<li>Amazon Web Services: EC2, S3, RDS</li>
 	<li>TDD and Continuous Integration</li>
 	<li>Front-end: HTML, CSS, JavaScript/jQuery</li>

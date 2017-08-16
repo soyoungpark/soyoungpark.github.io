@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>I am a software engineer with interest in turning increasingly large volume of city-produced data to meaningful insight. </p>
+<p>I am a software engineer who wants to extract meaningful insight from increasingly large volume of city-produced data. I earned a B.A. in urban studies and computer and information sciences from University of Pennsylvania in August 2017. I took time off school to launch and run an e-commerce delivery startup, Epicerie (<a href="www.epicerie.kr">www.epicerie.kr</a>). Confronted and solved very interesting engineering and business logic problems as a full stack engineer and cofounder.</p>
 
 <h2>Main Skills</h2>
 

@@ -14,6 +14,7 @@ layout: page
 	<li>Web frameworks: CodeIgniter, Express (NodeJS), Flask</li>
 	<li>Scripting: bash, Python</li>
 	<li>Relational database design &amp; refactoring: MySQL</li>
+	<li>API design (public &amp; private)</li>
 	<li>Amazon Web Services: EC2, S3, RDS</li>
 	<li>TDD and Continuous Integration</li>
 	<li>Front-end: HTML, CSS, JavaScript/jQuery</li>

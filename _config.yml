@@ -8,7 +8,7 @@ description: A blog about technology and stuff related
 # if it's an external image, update below for true
 # better with square images
 external-image: true
-picture: assets/images/soyoungpark.jpg
+picture: www.soyoungpark.online/assets/images/soyoungpark.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
@@ -57,7 +57,7 @@ authors:
         name: SoYoung Park
         bio: computer science + urban studies 
         external-image: true
-        picture: assets/images/soyoungpark.jpg
+        picture: www.soyoungpark.online/assets/images/soyoungpark.jpg
         twitter: soyoung_park
     jamesfoster:
         name: James Foster

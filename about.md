@@ -4,7 +4,7 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p>I am a software engineer who wants to extract meaningful insight from increasingly large volume of city-produced data. I earned a B.A. in urban studies and computer and information sciences from University of Pennsylvania in August 2017. I took time off school to launch and run an e-commerce delivery startup, Epicerie (<a href="www.epicerie.kr">www.epicerie.kr</a>). Confronted and solved very interesting engineering and business logic problems as a full stack engineer and cofounder.</p>
+<p>I am a software engineer who wants to extract meaningful insight from increasingly large volume of city-produced data. I earned a B.A. in urban studies and computer and information sciences from University of Pennsylvania in August 2017. In 2015 I took time off school to launch and run an e-commerce delivery startup, Epicerie (<a href="www.epicerie.kr">www.epicerie.kr</a>). Confronted and solved very interesting engineering and business logic problems as a full stack engineer and cofounder. Feel free to reach me at <img src="/assets/images/yosoy.png"/>(at) upenn (dot) edu, as well as on <a href="twitter.com/soyoung_park">Twitter</a> or <a href="linkedin.com/soyoungpark05">LinkedIn</a>. </p>
 
 <h2>Main Skills</h2>
 

@@ -2,9 +2,7 @@
 title: "Tensorflow Traffic Congestion Classifier"
 layout: post
 date: 2017-08-14 22:10
-tag: 
--tensorflow 
--docker
+tag: tensorflow 
 image: /assets/images/tensorflowtraffic/tf.png
 headerImage: true
 projects: true

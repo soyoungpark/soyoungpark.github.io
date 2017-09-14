@@ -170,5 +170,5 @@ In the future I would like to start other machine learning projects which train 
 
 [1]: http://www.soyoungpark.github.io/assets/images/tensorflowtraffic/heavytraffic1.jpg
 [2]: http://www.soyoungpark.online/assets/images/tensorflowtraffic/heavytraffic2.jpg
-[3]: ./assets/images/tensorflowtraffic/heavytraffic2.jpg
+[3]: ../assets/images/tensorflowtraffic/heavytraffic2.jpg
 [6]: http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg

@@ -50,6 +50,7 @@ I had initially collected images of what I think are 'heavily congested' traffic
 <img src='../assets/images/tensorflowtraffic/heavytraffic2.jpg' />
 <figcaption class="caption">Photos of heavy traffic congestion I found through Google image search</figcaption>
 
+
 After spending half a day searching for traffic photos on Google images, I realized this method is not only extremely time-consuming (a lot more so than I had estimated) but also ineffective for the task at hand. It was very difficult to find images of heavily congested roads and intersections. After a few solid hours searching, I ended up with just 67 images of traffic congestion, but very few images of roads that are less congested. Most importantly, many of the ‘heavy congestion’ images were either very high resolution and/or taken from angles that traffic camera could not be positioned at.
 
 #### Data Collection, Phase 2:
@@ -101,6 +102,64 @@ After browsing through the EarthCam website, I found that for every traffic came
 
 In less than a few hours, I was able to collect about 6000 images, taken from February 2017 to August 4, 2017. I eliminated about 1200 irrelevant images before sorting them. Following are the types of images that were opted out from sorting: images that are too blurry, dark, or low-resolution even for human eyes to determine what’s going on, images from when the roads are entirely blocked out for parades or protests, and images snapshotted from when the traffic camera was rotating. My rationale behind excluding the said images was that if a pair of human eyes cannot categorize them into either heavy traffic or else, then the model trained through supervised learning should not be expected to categorize them either. Shown below are examples of such images.
 
+Again, I had to manually sort them by angles (ranging from angle 0 to 4), then into one of the two traffic categories. I ran the experiment twice: first, by 10 categories (heavycongestion0, lesscongestion0, heavycongestion1, lesscongestion1, … heavycongestion4, lesscongestion4), second, by just two (heavycongestion, lesscongestion). 
+
+I also launched Tensorboard to monitor the training process; I was able to monitor real-time updates to the validation accuracy and cross entropy, which were also logged to the terminal console. Cross entropy is a way of measuring how far away from the expected answer (classification) the current model is; a model that predicts correctly with 60% probability (‘score’ in Tensroflow) is more distant from an ideal model than a model that predicts correctly with 90% probability. I specified 500 training steps for each experiment, and not surprisingly, training accuracy increased and cross entropy decreased with each step for both experiments. I would like to discuss the pros and cons of the two approaches below.
+
+#### Experiment 1 (Sorted by angle and traffic level): 10 categories
+
+<img src='../assets/images/tensorflowtraffic/accuracy1.png' />
+
+Orange line represents train accuracy, and the turquoise line validation accuracy. Tensorflow partitions the input data into training set and validation set. The idea is analogous to crossfold validation in traditional statistics, bur more appropriate for machine learning tasks which usually take in a larger size of dataset. The training set, which constitutes majority of the input data, is used to train the model by adjusting parameters and fit weights. Validation set is used during the training to measure the improvement in the model’s accuracy as more training steps are taken. While both the training and validation accuracy increase over time, and though the final test accuracy is  80.6%, there is a considerable gap overall between the training and validation throughout all 500 steps.  
+
+<img src='../assets/images/tensorflowtraffic/crossentropy1.png' />
+
+Cross entropy is measured for both the training and validation dataset. Both decrease over time, meaning the model has become more sophisticated over time in correctly predicting the output. 
+
+#### Experiment 2 (Sorted by traffic level alone): 2 categories
+
+<img src='../assets/images/tensorflowtraffic/accuracy2.png' />
+
+It is said that the gap between train and validation accuracy often comes from overfitting. While both train and validation accuracy increased as more training steps were taken, the gap started to widen from about 300th training step. Final test accuracy was 85.7%. 
+
+<img src='../assets/images/tensorflowtraffic/crossentropy2.png' />
+
+Not surprisingly, cross entropy decrease over time (training step). 
+
+I tested this model with 28 images, representing different angles and different level of congestion. What was interesting was that because my input dataset for training included only images of both extremes (extremely heavy congestion or empty road), the score for each prediction often matched the congestion ‘level’ of the test image. For instance, for the following image of sparsely populated, but not completely empty intersection, the score for ‘heavy congestion’ was 0.69670. 
+
+
+
+
+For test images belonging to the extremes, the accuracy was high. 0.98415 score for light congestion for the following photo demonstrates that the model does not simply interpret bright lights as heavy traffic. 
+
+
+
+The model also understood that congestion level is not necessarily proportional to how much the road is exposed.
+
+
+For unrelated images, the results were also satisfactory. It was close to random guessing. 
+
+
+I observed a few discrepancies, too. The model classified the photo below to be light congestion rather than heavy congestion. 
+
+
+It was a satisfactory and efficiently built model, overall, but I decided to run it again with the same input data but with less training steps. This was because I noticed the gap between train and validation accuracy after the 300th step, and thought that completing the the model training before it started overfitting might help solve some of the discrepancy I observed. 
+
+
+#### Experiment 2, take two (500 -> 300 training steps)
+
+Final test accuracy was 83.3%. Although it is lower than the test accuracy from when 500 training steps were taken, the drop may be due to prevention of overfitting. As can be seen in the graph below, there is no sign of overfitting, as far as the difference between the train and validation accuracy is concerned. 
+
+But when I ran the test on the same image which had previously been classified in an unexpected manner, the score for ‘light congestion’ has decreased but the prediction itself remained the same: light congestion. I wish I could take images that were incorrectly classified and find some commonality among them, but there were only two such images in the test dataset of 28 images (this dataset is completely separate from the input dataset). I was, however, satisfied to train a model with less overfitting. 
+
+### Conclusion
+
+In Neural Information Processing Systems 2015, D. Sculley, Gary Holt, Daniel Golovin, Eugene Davydov, and Todd Phillips presented a paper discussing the technical debt incurring from applying software engineering framework to real world machine learning problems. In the paper, the five scholars state that “only a tiny fraction of the code in many ML systems is actually devoted to learning or prediction.” 
+
+I had indeed spent a good portion of the time sourcing, saving and sorting data. Because this was my first time applying deep learning to a real world problem, I was able to learn new concepts (Coursera Machine Learning) and apply it with a toolset that I have never used before (Tensorflow run on Docker image). Applying theory through Coursera Machine Learning course homework was one thing, but applying it to real-world data, which was not always in the format I wanted, and often contained unexpected type of data (the protests and parades were entirely unexpected), was another.
+
+In the future I would like to start other machine learning projects which train the model from scratch — for more sophisticated fine-tuning. Although they are more time consuming, I believe I would be able to better customize the powerful multithreading power of Tensorflow to solve city problems by using city-produced data. 
 
 
 

@@ -2,7 +2,11 @@
 layout: compress
 ---
 <!DOCTYPE html>
+{% if page.title == "Home" %}
+<html lang="en" style="background-color:black;">
+{% else %}
 <html lang="en">
+{% endif %}
 <head>
 
     <meta charset="utf-8">
@@ -20,6 +24,15 @@ layout: compress
 
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}{{ "/feed.xml" }}" />
+
+    {% if page.title == "Art" %}
+        <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+        <script type='text/javascript' src='unitegallery/js/unitegallery.min.js'></script> 
+        
+        <link rel='stylesheet' href='unitegallery/css/unite-gallery.css' type='text/css' /> 
+        <script type='text/javascript' src='unitegallery/themes/default/ug-theme-default.js'></script> 
+        <link rel='stylesheet' href='unitegallery/themes/default/ug-theme-default.css' type='text/css' /> 
+    {% endif %}
 
     <style>
     {% capture scss_sheet %}{% include style.scss %}{% endcapture %}

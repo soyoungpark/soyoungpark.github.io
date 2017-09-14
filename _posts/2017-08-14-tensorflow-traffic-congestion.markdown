@@ -46,7 +46,7 @@ As for training the model, because of the sheer size of input data that I was de
 
 I had initially collected images of what I think are 'heavily congested' traffic stuation vs those that are less congested, by manually searching Google images. My rationale for doing so was that while it may be time-consuming, I would be able to provide a diverse set of ‘heavy traffic congestion’ images, taken from various angles, capturing different scenarios for traffic congestion. I had then wanted to create a universal traffic congestion classifier model which, when given an image of any highway or traffic intersection in the world, would tell whether it is heavily congested or not. I had also thought this approach (manual Google-searching) would clearly prevent the Tensorflow model from using the same data for testing and training, which, according to Coursera Machine Learning course, was to be avoided at all costs.
 
-
+<img src='./assets/images/tensorflowtraffic/heavytraffic1.jpg'></img>
 ![Markdowm Image][1]
 ![Markdowm Image][2]
 ![Markdowm Image][3]
@@ -86,6 +86,18 @@ python retrain.py \
 I wanted to create a binary classifier which, when given a snippet from traffic camera, outputs the probability of the image containing heavy traffic congestion and sends out real-time alert (HTTP POST request) to a predefined API endpoint. This binary classification (‘heavy congestion’ vs ‘else’) suffices for the purpose of this research because NYC residents are likely to be more interested in ‘heavy congestion’ events than in any of the ‘else’ events (ranging from zero traffic to light traffic).
 
 The actual training took about half an hour at this stage. Throughout the training, I was able to see that the Tensorflow was validating the new data against the current model at every training step. Naturally, the validation score increased as more data was fed into the model. After the training was over, I could run ‘label_image.py’ on any test image to output the percentage of the photo representing ‘heavy congestion’ or ‘else’. The results seemed to make sense, at the least. The model predicted that the photo below on the left was 58.3% likely to be less heavy congestion (currently labelled as ‘else’, then as ‘nojam’), and predicted that the photo below on the right was 97.3% likely to be ’heavy congestion’ (which then was labelled as ‘jam’ — I later relabelled the two categories to make them more intuitive).
+
+
+
+
+While 58.3% was a better performance than just randomly guessing out of the two possible categories, I noticed something strange. The model predicted that some images of empty roads were ‘heavy congestion’, with more than 80% conviction (score above 0.80). Clearly something was wrong. Tackling this issue was initially not very straight-forward because I used Tensorflow at a very high level and did not control a lot of its environment, other than some parameters when training the model. This meant that either the task I wanted to accomplish (traffic level classifier) was not appropriate for Tensorflow, or I was making some mistake in setting the parameters, or I was providing not enough (or not diverse enough) photos for training data. 
+
+After talking to Professor Murphy who advised me on this research, I realized that while my traffic camera is fixated, it regularly makes rotations, streaming NYC 5th Avenue from different angles. This meant that I may need to provide ample (~300) data, for each angle, for each category. 5 angles x 300 x 2 categories meant that I needed about 3000 photos total. Also, for my training data I also needed traffic photos of the 5th Avenue in different weather conditions, and photos snapshotted under poor network condition (blurry or low resolution). Considering these new requirements, I decided that taking snapshots was no longer a valid strategy for collecting data because it was early July, and I doubted that it would snow in NYC in summer. 
+
+#### Data collection, phase 3:
+
+After browsing through the EarthCam website, I found that for every traffic camera, there exists an archive of images from at least half a year ago (for I saw images from March). I decided to write a Python script that scrapes all the images in the archive. I initially had some difficulties because the archive was loaded through asynchronous javascript, which shot HTTP GET request to the EarthCam server endpoint (https://www.earthcam.com/cams/common/gethofitems.php). I simulated this GET request at a predefined interval to mimic AJAX GET request, and succeeded in seamlessly scraping images from the server. 
+
 
 
 [Check it out](http://soyoungpark.github.io/tftraffic/) here.

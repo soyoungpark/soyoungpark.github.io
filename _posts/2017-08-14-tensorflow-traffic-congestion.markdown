@@ -46,7 +46,7 @@ As for training the model, because of the sheer size of input data that I was de
 
 I had initially collected images of what I think are 'heavily congested' traffic stuation vs those that are less congested, by manually searching Google images. My rationale for doing so was that while it may be time-consuming, I would be able to provide a diverse set of ‘heavy traffic congestion’ images, taken from various angles, capturing different scenarios for traffic congestion. I had then wanted to create a universal traffic congestion classifier model which, when given an image of any highway or traffic intersection in the world, would tell whether it is heavily congested or not. I had also thought this approach (manual Google-searching) would clearly prevent the Tensorflow model from using the same data for testing and training, which, according to Coursera Machine Learning course, was to be avoided at all costs.
 
-<img src='../assets/images/tensorflowtraffic/heavytraffic1.jpg'></img>
+<img src='../assets/images/tensorflowtraffic/heavytraffic1.jpg' />
 ![Markdowm Image][1]
 ![Markdowm Image][2]
 ![Markdowm Image][3]

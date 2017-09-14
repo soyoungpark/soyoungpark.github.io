@@ -47,11 +47,7 @@ As for training the model, because of the sheer size of input data that I was de
 I had initially collected images of what I think are 'heavily congested' traffic stuation vs those that are less congested, by manually searching Google images. My rationale for doing so was that while it may be time-consuming, I would be able to provide a diverse set of ‘heavy traffic congestion’ images, taken from various angles, capturing different scenarios for traffic congestion. I had then wanted to create a universal traffic congestion classifier model which, when given an image of any highway or traffic intersection in the world, would tell whether it is heavily congested or not. I had also thought this approach (manual Google-searching) would clearly prevent the Tensorflow model from using the same data for testing and training, which, according to Coursera Machine Learning course, was to be avoided at all costs.
 
 <img src='../assets/images/tensorflowtraffic/heavytraffic1.jpg' />
-![Markdowm Image][1]
-![Markdowm Image][2]
-![Markdowm Image][3]
-![Markdowm Image][6]
-<!--![Markdowm Image][/images/tensorflowtraffic/heavytraffic2.jpg]-->
+<img src='../assets/images/tensorflowtraffic/heavytraffic2.jpg' />
 <figcaption class="caption">Photos of heavy traffic congestion I found through Google image search</figcaption>
 
 After spending half a day searching for traffic photos on Google images, I realized this method is not only extremely time-consuming (a lot more so than I had estimated) but also ineffective for the task at hand. It was very difficult to find images of heavily congested roads and intersections. After a few solid hours searching, I ended up with just 67 images of traffic congestion, but very few images of roads that are less congested. Most importantly, many of the ‘heavy congestion’ images were either very high resolution and/or taken from angles that traffic camera could not be positioned at.
@@ -97,6 +93,14 @@ After talking to Professor Murphy who advised me on this research, I realized th
 #### Data collection, phase 3:
 
 After browsing through the EarthCam website, I found that for every traffic camera, there exists an archive of images from at least half a year ago (for I saw images from March). I decided to write a Python script that scrapes all the images in the archive. I initially had some difficulties because the archive was loaded through asynchronous javascript, which shot HTTP GET request to the EarthCam server endpoint (https://www.earthcam.com/cams/common/gethofitems.php). I simulated this GET request at a predefined interval to mimic AJAX GET request, and succeeded in seamlessly scraping images from the server. 
+
+
+
+
+
+
+In less than a few hours, I was able to collect about 6000 images, taken from February 2017 to August 4, 2017. I eliminated about 1200 irrelevant images before sorting them. Following are the types of images that were opted out from sorting: images that are too blurry, dark, or low-resolution even for human eyes to determine what’s going on, images from when the roads are entirely blocked out for parades or protests, and images snapshotted from when the traffic camera was rotating. My rationale behind excluding the said images was that if a pair of human eyes cannot categorize them into either heavy traffic or else, then the model trained through supervised learning should not be expected to categorize them either. Shown below are examples of such images.
+
 
 
 

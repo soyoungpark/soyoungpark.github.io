@@ -65,6 +65,25 @@ sleep 180;
 done
 {% endhighlight %}
 
+By running this script at different intervals, I collected about 400 images throughout different times of the day, at different days of the week. I was finally ready to test with Tensorflow. 
+
+In using Tensorflow I mostly followed Google Codelab, and Tensorflow for Poets. As per instruction, I installed docker, which is analogous to virtual machine but share the host OS kernel (and usually the binaries and libraries too) and are much lighter. Running Tensorflow within Docker allows for easier migration in the future and, as I learned through trial and error, is much easier than running it in my native OS X. In docker image, I provided two image directories, each named after my desired classifications: 'heavily-congested', and 'less-congested'. I then ran Tensorflow with 500 training steps. 
+
+{% highlight python %}
+python retrain.py \
+  --bottleneck_dir=bottlenecks \
+  --how_many_training_steps=500 \
+  --model_dir=inception \
+  --summaries_dir=training_summaries/basic \
+  --output_graph=retrained_graph.pb \
+  --output_labels=retrained_labels.txt \
+  --image_dir=capturedtraffic
+{% endhighlight %}
+
+I wanted to create a binary classifier which, when given a snippet from traffic camera, outputs the probability of the image containing heavy traffic congestion and sends out real-time alert (HTTP POST request) to a predefined API endpoint. This binary classification (‘heavy congestion’ vs ‘else’) suffices for the purpose of this research because NYC residents are likely to be more interested in ‘heavy congestion’ events than in any of the ‘else’ events (ranging from zero traffic to light traffic).
+
+The actual training took about half an hour at this stage. Throughout the training, I was able to see that the Tensorflow was validating the new data against the current model at every training step. Naturally, the validation score increased as more data was fed into the model. After the training was over, I could run ‘label_image.py’ on any test image to output the percentage of the photo representing ‘heavy congestion’ or ‘else’. The results seemed to make sense, at the least. The model predicted that the photo below on the left was 58.3% likely to be less heavy congestion (currently labelled as ‘else’, then as ‘nojam’), and predicted that the photo below on the right was 97.3% likely to be ’heavy congestion’ (which then was labelled as ‘jam’ — I later relabelled the two categories to make them more intuitive).
+
 
 [Check it out](http://soyoungpark.github.io/tftraffic/) here.
 

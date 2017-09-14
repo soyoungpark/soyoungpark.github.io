@@ -15,7 +15,7 @@ author: soyoungpark
 externalLink: false
 ---
 
-Used Tensorflow to fine-tune last layer of Inception v3 and built a traffic congestion level classifier. 
+Trained a Tensorflow model, fine-tuning last layer of Inception v3, to build a traffic congestion level classifier. 
 
 ---
 

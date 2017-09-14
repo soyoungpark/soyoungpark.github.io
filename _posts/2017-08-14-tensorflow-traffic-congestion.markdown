@@ -2,7 +2,7 @@
 title: "Tensorflow Traffic Congestion Classifier"
 layout: post
 date: 2017-08-14 22:10
-tag: jekyll
+tag: tensorflow
 image: /assets/images/markdown.jpg
 headerImage: true
 projects: true
@@ -10,14 +10,14 @@ hidden: true # don't count this post in blog pagination
 description: "NYC 5th Avenue traffic congestion real-time classifier using Tensorflow"
 category: project
 author: soyoungpark
-externalLink: true
+externalLink: false
 ---
 
 Used Tensorflow to fine-tune last layer of Inception v3 which was already trained on Imagenet,  
 
 ---
 
-Tech staack
+Tech stack
 
 - Python
 - Tensorflow

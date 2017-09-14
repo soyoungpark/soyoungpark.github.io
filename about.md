@@ -25,6 +25,8 @@ layout: page
 <h2>Have Experience</h2>
 
 <ul class="skill-list">
+	<li>Docker development</li>
+	<li>Tensorflow</li>
 	<li>OCaml</li>
 	<li>Prolog</li>
 	<li>Design Pattern</li>

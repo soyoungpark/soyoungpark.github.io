@@ -13,7 +13,7 @@ author: soyoungpark
 externalLink: false
 ---
 
-Used Tensorflow to fine-tune last layer of Inception v3 which was already trained on Imagenet,  
+Used Tensorflow to fine-tune last layer of Inception v3 and built a traffic congestion level classifier. 
 
 ---
 
@@ -25,5 +25,18 @@ Tech stack
 - bash
 
 ---
+
+1. Motivation
+
+	From the very beginning, I knew I wanted to merge my two majors — Urban Studies and Computer Science — for my independent research. I also knew I wanted to do this by using dataset produced by the city. Because of the broadness of the term, ‘urban data’ could include anything from census data and pollution statistics to crime rate. While reading a blog post from Sidewalk Labs, however, I was motivated by the idea of applying computer vision to traffic camera feeds. 
+	What was a problem that could benefit from application of computer vision to traffic camera video footage? I initially thought of a system that sent real-time alert when an accident occurred. I had thought that my machine learning model will be trained to see and identify vehicles on the otherwise fixated screen (the model will of course weed out pedestrians), and log an alert message whenever two or more of the vehicles are within a few centimeters away from each other. A few weeks into Coursera Machine Learning course (taught by Andrew Ng), however, I realized that such a task would be a lot more complicated than I had envisioned, and quickly revised the project goal to logging alert messages in the event of heavy traffic congestion. It will still be very useful for the city residents, and is a more apt task for image recognition through supervised learning. My model had the advantage of not needing to install additional hardware (sensors) throughout intersections.
+
+2. Approach
+
+	I had intended to source the traffic video footage from NYC Department of Transportation (http://dotsignals.org/), which opened up to the public its real-time traffic camera feeds. For some network issues, however, I was not able to see the stream, although the browser’s network panel clearly showed a stream of .ts files being asynchronously received. I quickly switched the source to EarthCam (https://www.earthcam.com/), which offered HD live camera feeds from 120 cameras installed in New York City, and hundreds more from around the world. 
+	For the first four weeks of the project, I took a Machine Learning class on Coursera, taught by Andrew Ng, professor at Stanford and former head of Baidu AI / Google Brain. I completed all the homework tasks and updated the progress on my blog (www.soyoung-park.blogspot.kr). 
+	I also spent about a week finalizing my tool for the project. I had learned the basics of supervised learning, but which toolset was the most appropriate for the project? After looking into the pros and cons of Keras, Caffe, Scikit Learn, and Tensorflow, I chose Tensorflow, mainly because it is more low-level and helpful for when I want to implement deep learning algorithms myself. For this particular project, as it is my first project using a machine learning library, I would mainly be using Tensorflow’s high-level library, but I was excited by the possibility of switching to low-level later on in my career for custom implementation of deep learning algorithms. 
+	As for training the model, because of the sheer size of input data that I was dealing with (video data), I learned that it could potentially take up to weeks to fully train the model from scratch. For the purpose of this research, however, I needed to be able to experiment and quickly pivot the direction if necessary. So I decided to re-train the final layer of Inception v3, which is an image classificaiton model already trained on extensive image data (ImageNet). The model was not specialized as a traffic congestion classifier, however, so I needed to fine-tune the model by training its last layer.
+
 
 [Check it out](http://soyoungpark.github.io/tftraffic/) here.

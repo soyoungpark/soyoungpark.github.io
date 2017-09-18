@@ -38,10 +38,12 @@ layout: page
 	<li>C#</li>
 </ul>
 
-<h2>Projects</h2>
+<h2>Selected Projects</h2>
 
 <ul>
-	<li><a href="https://github.com/tftraffic">Tensorflow Traffic Congestion Classifier</a></li>
-	<li><a href="https://github.com/">Ipsum Dolor</a></li>
-	<li><a href="https://github.com/">Dolor Lorem</a></li>
+	<li><a href="http://epicerie.kr">Epicerie - freshness delivered</a></li>
+	<li><a href="../tensorflow-traffic-congestion">Tensorflow Traffic Congestion Classifier</a></li>
+	<li><a href="https://devpost.com/software/hackmit-stock-price-prediction">Stock Price Prediction using Sentiment Data</a></li>
+	<li><a href="https://devpost.com/software/idropbox-048ri5">iDropbox - Airbnb for Storage</a></li>
+	<li><a href="https://devpost.com/software/campus-couture">Campus Couture</a></li>
 </ul>

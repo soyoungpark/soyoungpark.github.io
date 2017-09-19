@@ -17,15 +17,15 @@ This is a basic security checklist for creating a basic web application. Apt for
 
 ---
 
-### Motivation
+## Motivation
 
 This summer (June - Aug 2017), I had the opportunity to teach a group of high school students about making a simple web application (two of them chose NodeJS, the other three PHP). Excited at seeing their applicaitons come to life, the students were tempted to finish off their project with an application vulnerable to common security attacks, such as SQL injection, XSS, and dictionary (or other variants, like rainbow table) attacks on the password. This, to beginners in web development, is understandably an appealing thought, since implementing new features and changing user interface may seem like more 'tangible' progress than coding functions to prevent security breaches. However, if the web application is to be made public -- which was the case for all of my students -- it is crucial that the application adheres to basic but important security principles. Following is a list of some very basic security measures to implement, what attacks they help prevent, example(s) if applicable, and why each measure is important to web security. 
 
 ---
 
-### The Checklist
+## The Checklist
 
-1. Hash your password, with salt
+### 1. Hash your password, with salt
 
 {% highlight js %}
 
@@ -53,7 +53,7 @@ var hashed_pw = passwordData.passwordHash;
 
 {% endhighlight %}
 
-2. Prevent SQL injection:
+### 2. Prevent SQL injection:
 
 3.
 4.

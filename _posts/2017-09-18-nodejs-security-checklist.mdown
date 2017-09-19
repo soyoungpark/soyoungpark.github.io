@@ -13,7 +13,7 @@ author: soyoungpark
 externalLink: false
 ---
 
-This is a basic security checklist for creating a basic Node.js web application. Apt for students and developers who want to create a basic Node.js web application. It is assumed that readers already know how to build / have already built a functioning web application. 
+This is a basic security checklist for creating a basic web application. Apt for students and developers who want to create a basic Node.js web application. It is assumed that readers already know how to build or have already built a functioning web application. 
 
 ---
 

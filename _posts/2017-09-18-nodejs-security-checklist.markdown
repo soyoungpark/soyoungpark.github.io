@@ -9,8 +9,8 @@ tag:
 - webdev
 star:false
 category: blog
-description: Security checklist for web development beginners
 author: soyoungpark
+description: Security checklist for web development beginners
 ---
 
 This is a basic security checklist for creating a basic web application. Apt for students and developers who want to create a basic Node.js web application. It is assumed that readers already know how to build or have already built a functioning web application. 

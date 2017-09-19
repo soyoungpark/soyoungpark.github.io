@@ -3,11 +3,11 @@ title: "Security Checklist for Developing a Basic Web Application"
 layout: post
 date: 2017-09-18 18:52
 image: /assets/images/nodejs.png
-headerImage: true
+headerImage: false
 tag: 
 - security 
 - webdev
-star:false
+star: false
 category: blog
 author: soyoungpark
 description: Security checklist for web development beginners

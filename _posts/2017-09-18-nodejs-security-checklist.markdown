@@ -7,10 +7,10 @@ headerImage: true
 tag: 
 - security 
 - webdev
-description: Security checklist for web development beginners
+star:false
 category: blog
+description: Security checklist for web development beginners
 author: soyoungpark
-externalLink: false
 ---
 
 This is a basic security checklist for creating a basic web application. Apt for students and developers who want to create a basic Node.js web application. It is assumed that readers already know how to build or have already built a functioning web application. 
@@ -19,7 +19,7 @@ This is a basic security checklist for creating a basic web application. Apt for
 
 ### Motivation
 
-This summer (June - Aug 2017), I had the opportunity to teach a group of high school students about making a simple web application (two of them chose NodeJS, the other three PHP). Excited at seeing their applicaitons come to life, the students were tempted to finish off their project with an application vulnerable to some basic security attacks, such as SQL injection, XSS, and dictionary (or other variants, like rainbow table) attacks on the password. This, to beginners in web development, is understandably an appealing thought, since implementing new features and changing user interface may seem like more 'tangible' progress than coding functions to prevent security breaches. However, if the web application is to be made public -- which was the case for all of my students -- it is crucial that the application adheres to basic but important security principles. Following is a list of some very basic security measures to implement, what attacks they help prevent, example(s) if applicable, and why each measure is important to web security. 
+This summer (June - Aug 2017), I had the opportunity to teach a group of high school students about making a simple web application (two of them chose NodeJS, the other three PHP). Excited at seeing their applicaitons come to life, the students were tempted to finish off their project with an application vulnerable to common security attacks, such as SQL injection, XSS, and dictionary (or other variants, like rainbow table) attacks on the password. This, to beginners in web development, is understandably an appealing thought, since implementing new features and changing user interface may seem like more 'tangible' progress than coding functions to prevent security breaches. However, if the web application is to be made public -- which was the case for all of my students -- it is crucial that the application adheres to basic but important security principles. Following is a list of some very basic security measures to implement, what attacks they help prevent, example(s) if applicable, and why each measure is important to web security. 
 
 ---
 
@@ -28,7 +28,10 @@ This summer (June - Aug 2017), I had the opportunity to teach a group of high sc
 1. Hash your password, with salt
 
 {% highlight js %}
+
 /* when user creates a new account, inputs password ... */
+
+var crypto = require('crypto'); // cryptography package for password encryption
 
 var sha512 = function(password, salt){
     var hash = crypto.createHmac('sha512', salt); /** SHA-512 hashing algorithm */

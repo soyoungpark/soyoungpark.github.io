@@ -7,8 +7,8 @@ image: /assets/images/nodejs.png
 headerImage: true
 projects: false
 hidden: false # don't count this post in blog pagination
-description: "Security Checklist"
-category: project
+description: Security checklist for web development beginners
+category: blog
 author: soyoungpark
 externalLink: false
 ---

@@ -41,16 +41,16 @@ Keywords: sharing economy, ride-sharing services, transportation, transportation
 
 
 ### Table of Contents 
-- [Introduction](#intro)
-- [Research Questions](#researchq)
-- [Statistical Analysis](#stat)
-- [Literature Review](#litreview)
-- [Identifying Neighborhoods for Focus Study](#focusstudy)
-- [Methodology](#method)
-- [Descriptive and Qualitative Analysis of Data](#analysis)
+- [Introduction](#introduction)
+- [Research Questions](#research-questions)
+- [Statistical Analysis](#statistical-analysis)
+- [Literature Review](#literature-review)
+- [Identifying Neighborhoods for Focus Study](#identifying-neighborhoods-for-focus-study)
+- [Methodology](#methodology)
+- [Descriptive and Qualitative Analysis of Data](#descriptive-and-qualitative-analysis-of-data)
 - [Conclusion](#conclusion)
-- [Bibliography](#bib)
-- [Appendix](#apdx)
+- [Bibliography](#bibliography)
+- [Appendix](#appendix)
 
 
 

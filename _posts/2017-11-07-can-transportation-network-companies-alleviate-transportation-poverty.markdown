@@ -127,6 +127,8 @@ Housing affects and is affected by lack of transportation options; in his recent
 
 What Desmond is point out is not just that many low-income households do not own cars. It is closely related to rise of rent prices throughout the last decades, and how low-income households are increasingly spending bigger portion of their income for housing alone. Below is a map from CityLab displaying each state’s minimum hourly wage to afford a two-bedroom apartment, assuming 30% of income is spent on rent. The minimum wage in this regard is usually more than twice the state minimum wage. For reference, the U.S. federal minimum wage in 2016 is $7.25. In Milwaukee, Wisconsin, the focal city of Matthew Desmond’s Evicted, one must be earning $15.52 an hour to afford a two-bedroom unit. No tenant in Evicted earns this much per hour. As a consequence, they must work extended hours, move out to cheaper houses in deteriorated conditions, and still spend a major portion of income to pay for rent, at the expense of spending that income portion to shop for healthier food, pay for healthcare, utilities, or transportation. Currently, 25% of renters spend more than half of their income on housing. In Evicted, it is not uncommon to see low-income households paying 90 percent of household income on rent alone. Lack of transportation in many aspects exacerbates the evil cycle of eviction and resulting job loss, because without an affordable means of transportation, one cannot show up to the eviction court, search for new houses, and commute to workplaces.
 
+![Markdown Image][3]
+
 Racial segregation cannot be entirely excluded from discussion of segregation in transportation and housing. For instance, 80 percent of AC Transit riders are African American (Smiley, 2016). Douglas Massey in 1990 research “American Apartheid: Segregation and the Making of the Underclass” examines the role of racial segregation in emergence of urban low-income households in the 1970s. While the study is dated from more than two decades ago, the basic pattern of racial segregation has not changed dramatically, and much of his observations remain relevant in explaining the segregation of modern American urban neighborhoods based on race. 
 
 John Gilderbloom in “Invisible City: Poverty, Housing, and New Urbanism” examines major American cities including San Francisco and Boston to find cases to assess how and why they were successful in providing more affordable housing. He thinks that no panacea exists that would cure all urban poverty but examines major American cities to gain some insight from relatively successful cases.   
@@ -358,4 +360,4 @@ PolicyMap mapping of public transit density and income in West Philadelphia, Poi
 
 [1]:http://soyoungpark.github.io/assets/images/urbs/chart1.png
 [2]:http://soyoungpark.github.io/assets/images/urbs/chart1-2.png
-
+[2]:http://soyoungpark.github.io/assets/images/urbs/chart2.png

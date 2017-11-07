@@ -358,7 +358,9 @@ Supermarket Owner, Hispanic: She spoke very little English, but agreed to interv
 #### Survey in Point Breeze and West Philadelphia
 
 GIS Mapping of Public Transit Dependency and Low-income Households
+![Markdown Image][7]
 PolicyMap mapping of public transit density and income in West Philadelphia, Point Breeze and Italian Market (each displayed as colored boxes)
+![Markdown Image][8]
 
 
 
@@ -369,3 +371,6 @@ PolicyMap mapping of public transit density and income in West Philadelphia, Poi
 [4]:http://soyoungpark.github.io/assets/images/urbs/chart3.png
 [5]:http://soyoungpark.github.io/assets/images/urbs/chart4.png
 [6]:http://soyoungpark.github.io/assets/images/urbs/chart5.png
+[7]:http://soyoungpark.github.io/assets/images/urbs/chart6.png
+[8]:http://soyoungpark.github.io/assets/images/urbs/chart7.png
+[9]:http://soyoungpark.github.io/assets/images/urbs/chart8.png

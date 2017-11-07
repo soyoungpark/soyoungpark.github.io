@@ -2,7 +2,9 @@
 title: "Can Transportation Network Companies Alleviate Transportation Poverty"
 layout: post
 date: 2017-11-07 11:41
-tag: transportation 
+tag: 
+- transportation 
+- sharing_economy
 image: /assets/images/urbs/rideshare.png
 headerImage: true
 projects: true

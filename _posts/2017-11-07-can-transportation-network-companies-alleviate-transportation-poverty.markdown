@@ -86,6 +86,10 @@ Do on-demand ride hailing services such as Uber and Lyft alleviate transportatio
 
 To confirm that there exists a significant relationship between income level and mode of transportation, I ran a cross-tabulation analysis for income level and mode of commute to work, using 2015 American Community Survey data pertaining to the city of Philadelphia. I deliberately broke down the Philadelphian household income into three brackets, in which bracket 1 covered the lowest to below-average income households (ranging from -$6,000 to $50,000), bracket 2 included households between income of 50,0001 and $120,0000, and bracket 3 included income between $120,001 and MAX (which was $1,084,000). For mode of transport to work, I was only interested in whether the workers chose to walk, take public transit, or drive, which correspond to 1, 2 and 3 respectively.  
 
+![Markdowm Image][1]
+
+![Markdowm Image][2]
+
 As a result (see chart 1), I observed that driving is a dominant mode of commute to work across all income brackets. 80% of low income (income bracket 1) people drove to work, whereas close to 90% of high income people (income bracket 3) drove to work. People with less income were more likely to walk to work (8.1% of walkers belonged to income bracket 1) but middle-income people were least likely to walk. It may be that while middle-income people live in the suburbs, those with income above 120,000 (income bracket 3) may be living very close to work, near central business districts, such as Rittenhouse Square. In chart 2, Pearson Chi-Square asymptotic significance was 0.000, which is less than 0.5; I can therefore reject the null hypothesis and conclude that there is a statistically significant relationship between household income level and mode of transportation to work. Yet Cramer's V in chart 2 (which is 0.128) tells us that the strength of this correlation is not extremely strong.
 
 That may is not surprising, perhaps, because the data used for cross-tabulation included many suburban regions which do not enjoy a wealth of SEPTA public transit (bus, subway, and train) options. Many scholarly literature also confirm that America, even for a significant portion of low-income people, is still largely automobile-dependent. Rate of car-ownership is much lower in more densely populated neighborhoods in Philadelphia, however.
@@ -352,5 +356,6 @@ PolicyMap mapping of public transit density and income in West Philadelphia, Poi
 
 
 
-
+[1]:http://soyoungpark.github.io/assets/images/urbs/chart1.png
+[2]:http://soyoungpark.github.io/assets/images/urbs/chart2.png
 

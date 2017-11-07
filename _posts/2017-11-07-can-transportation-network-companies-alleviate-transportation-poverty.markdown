@@ -91,7 +91,7 @@ As a result (see chart 1), I observed that driving is a dominant mode of commute
 That may is not surprising, perhaps, because the data used for cross-tabulation included many suburban regions which do not enjoy a wealth of SEPTA public transit (bus, subway, and train) options. Many scholarly literature also confirm that America, even for a significant portion of low-income people, is still largely automobile-dependent. Rate of car-ownership is much lower in more densely populated neighborhoods in Philadelphia, however.
 
 ### Literature Review
-	I focus on four branches of scholarly literature relevant to my research question, including transportation, poverty, housing, and sharing economy.
+I focus on four branches of scholarly literature relevant to my research question, including transportation, poverty, housing, and sharing economy.
 
 #### Transportation, Housing and Poverty
 

@@ -198,6 +198,8 @@ I sought to understand the respondents mode of transportation, level of familiar
 
 Zip-code of residence: Of the 33 respondents, the dominant zip-codes were 19131, 19139, and 19146, as visualized in the map below. While the respondents from Point Breeze lived in nearby zip codes (10 out of 12 lived in zip code 19145, 19146, or 19147), respondents from West Philadelphia tended to live more scattered around Philadelphia. This most likely reflects the fact that survey in West Philadelphia sampled pedestrians near SEPTA bus stops and train stations. 
 
+![Markdown Image][5]
+
 The demographic of survey respondents generally matched that of 2010 census data for the census tracts previously identified: mostly African-American, and the largest percentage between age 25 to 34 (median age 31.50 according to 2010 census data). One difference was that there were disproportionately more male respondents than female respondents. Most popular form of transport was car, and bus for commuting. Yet the dominant reason for not using Uber was that people were driving their own car. 
 
 Of the 15 questions, only one was an open-ended question asking for the respondents’ reason for using or not using services like Uber and Lyft. The most popular reason for using Uber was that it was convenient, and the most popular reason for not using Uber was that it is expensive. 70% of total respondents had no experience using Uber or Lyft, and the detailed reasons gave meaningful insights about existing barriers that deter Uber and Lyt from becoming attractive options for low-income households. The individual responses mostly confirmed the expectations drawn from survey of scholarly literature, but some of them were quite unexpected, most notably the strong presence of familial network in transportation.  
@@ -365,3 +367,4 @@ PolicyMap mapping of public transit density and income in West Philadelphia, Poi
 [2]:http://soyoungpark.github.io/assets/images/urbs/chart1-2.png
 [3]:http://soyoungpark.github.io/assets/images/urbs/chart2.png
 [4]:http://soyoungpark.github.io/assets/images/urbs/chart3.png
+[5]:http://soyoungpark.github.io/assets/images/urbs/chart4.png

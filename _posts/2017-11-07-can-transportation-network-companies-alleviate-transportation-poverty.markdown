@@ -183,7 +183,10 @@ If ride sharing services help decrease practices of redlining through its system
 
 When asked if they would drive to high crime areas like West Philadelphia, drivers’ responses were mixed: three out of five said yes, and two said no. The truthfulness of their responses, however, may not be definitive, since it is difficult to build trust and rapport within a span of 20-to-30 minute ride, within which each interview was conducted (except with the exception of Kiana, who agreed to do one 30-minute phone interview afterwards).
 
-What was interesting, in light of the survey conducted later on, was that while Faliq (one of the Uber drivers who were interviewed) explicitly mentioned Point Breeze and Italian Market as neighborhoods where he has picked up passengers who expressed enormous appreciation for introduction of Uber, majority of Point Breeze and Italian Market residents responded that they have not used Uber. It may be that while only a small percentage of Point Breeze and Italian Market residents use Uber, their marginal utility is very high because the areas are underserved by SEPTA (as pointed out by many resident interviewees and survey respondents). The map in page 25 visualizes how scarce public transit is in the neighborhood (in green square).
+What was interesting, in light of the survey conducted later on, was that while Faliq (one of the Uber drivers who were interviewed) explicitly mentioned Point Breeze and Italian Market as neighborhoods where he has picked up passengers who expressed enormous appreciation for introduction of Uber, majority of Point Breeze and Italian Market residents responded that they have not used Uber. It may be that while only a small percentage of Point Breeze and Italian Market residents use Uber, their marginal utility is very high because the areas are underserved by SEPTA (as pointed out by many resident interviewees and survey respondents). The map below visualizes how scarce public transit is in the neighborhood (in green square).
+
+![Markdown Image][4]
+<figcaption class="caption">scarcity of public transit in Point Breeze (lower left corner) and Italian Market (green rectangle), Philadelphia.</figcaption>
 
 #### Interviews with Residents of the Italian Market:
 I interviewed five individuals, all residents of the Italian Market. Italian Market is an ethnically diverse neighborhood which some identify as undergoing gentrification. Median income for census tracts 17, 18, 23, 24, 25 (corresponding to the Italian Market neighborhood I conducted interviews in) is $51,604, higher than Philadelphia median income of $34,207. But as can be seen in the map (green box is the Italian Market), it has very limited public transit infrastructure. There are bus lines running along the 8th, 9th and 11st Street, but the only nearby subway stop is located at Broad & Federal Street. 
@@ -360,4 +363,5 @@ PolicyMap mapping of public transit density and income in West Philadelphia, Poi
 
 [1]:http://soyoungpark.github.io/assets/images/urbs/chart1.png
 [2]:http://soyoungpark.github.io/assets/images/urbs/chart1-2.png
-[2]:http://soyoungpark.github.io/assets/images/urbs/chart2.png
+[3]:http://soyoungpark.github.io/assets/images/urbs/chart2.png
+[4]:http://soyoungpark.github.io/assets/images/urbs/chart3.png

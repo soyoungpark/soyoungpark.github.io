@@ -41,21 +41,16 @@ Keywords: sharing economy, ride-sharing services, transportation, transportation
 
 
 Table of Contents 
-I. [Introduction](#intro)
-II. [Research Questions](#researchq)
-III. [Statistical Analysis](#stat)
-IV. [Literature Review](#litreview)
----- [Transportation, Poverty and Housing](#tph)
----- [Shared Economy](#shared)
-V. [Identifying Neighborhoods for Focus Study](#focusstudy)
-VI. [Methodology](#method)
-VII. [Descriptive and Qualitative Analysis of Data](#analysis)
----- [Interviews with drivers](#drivers)
----- [Survey in West Philadelphia and Point Breeze](#survey)
----- [Interviews with residents of Italian Market](#residents)
-VIII. [Conclusion](#conclusion)
-IX. [Bibliography](#bib)
-IX. [Appendix](#apdx)
+- [Introduction](#intro)
+- [Research Questions](#researchq)
+- [Statistical Analysis](#stat)
+- [Literature Review](#litreview)
+- [Identifying Neighborhoods for Focus Study](#focusstudy)
+- [Methodology](#method)
+- [Descriptive and Qualitative Analysis of Data](#analysis)
+- [Conclusion](#conclusion)
+- [Bibliography](#bib)
+- [Appendix](#apdx)
 
 
 

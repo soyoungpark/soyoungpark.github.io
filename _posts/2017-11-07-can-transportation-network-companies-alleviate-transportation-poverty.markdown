@@ -4,7 +4,6 @@ layout: post
 date: 2017-11-07 11:41
 tag: 
 - transportation 
-- sharing economy
 image: /assets/images/urbs/rideshare.png
 headerImage: true
 projects: true

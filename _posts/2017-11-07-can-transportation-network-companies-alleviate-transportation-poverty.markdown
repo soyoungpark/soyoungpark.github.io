@@ -357,5 +357,5 @@ PolicyMap mapping of public transit density and income in West Philadelphia, Poi
 
 
 [1]:http://soyoungpark.github.io/assets/images/urbs/chart1.png
-[2]:http://soyoungpark.github.io/assets/images/urbs/chart2.png
+[2]:http://soyoungpark.github.io/assets/images/urbs/chart1-2.png
 

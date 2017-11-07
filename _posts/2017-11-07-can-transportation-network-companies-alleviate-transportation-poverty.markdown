@@ -235,7 +235,9 @@ Surveys and interviews with residents of identified census tracts, augmented by 
 
 ### Bibliography
 Ballús-Armet, Ingrid, Susan Shaheen, Kelly Clonts, and David Weinzimmer. "Peer-to-Peer Carsharing." Transportation Research Record: Journal of the Transportation Research Board 2416 (2014): 27-36. Web.
+
 Böckmann, Marco. “The Shared Economy: It is time to start caring about sharing; value creating factors in the shared economy”. University of Twente. June 2013
+
 Botsman, R. and R. Rogers (2010) “What’s mine is yours. The rise of collaborative consumption” New York: Harper Business.
 
 Brueck, Hilary. "Why Uber Is Letting Some Riders Pay With Cash." Fortune.com 06 Apr. 2016: n. pag. Print.
@@ -271,7 +273,9 @@ Glaeser, Edward L., Matthew E. Kahn, and Jordan Rappaport. "Why Do the Poor Live
 Harris, Dan, and Gitika Ahuja. "Race for a Cab: When Hailing a Ride Isn't So Black and White." Http://abcnews.go.com/. ABC News, 1 Apr. 2009. Web. 4 Dec. 2016.
 
 Ihlanfeldt, Keith. “The Spatial Mismatch Between Jobs and Residential Locations Within Urban Areas” Cityscape, Vol.1, No.1, (219-244). 1994.
+
 Kain, John F. "The Spatial Mismatch Hypothesis: Three Decades Later." Housing Policy Debate 3.2 (1992): 371-460. Web.
+
 Khau, J., “Mobility for the Poor: Car-Sharing, Car Loans, and the Limits of Public Transit,” New Geography, August 22, 2013, www.newgeography.com/content/003888-mobility-poor-car-sharing-car-loans-and-limits-public-transit.
 
 Kodransky, Michael, and Gabriel Lewenstein. Connecting Low-Income People to Opportunity with Shared Mobility. Rep. N.p.: Institute for Transportation and Development Policy, 2014. Web. 5 Dec. 2016.

@@ -204,7 +204,7 @@ The demographic of survey respondents generally matched that of 2010 census data
 
 Of the 15 questions, only one was an open-ended question asking for the respondents’ reason for using or not using services like Uber and Lyft. The most popular reason for using Uber was that it was convenient, and the most popular reason for not using Uber was that it is expensive. 70% of total respondents had no experience using Uber or Lyft, and the detailed reasons gave meaningful insights about existing barriers that deter Uber and Lyt from becoming attractive options for low-income households. The individual responses mostly confirmed the expectations drawn from survey of scholarly literature, but some of them were quite unexpected, most notably the strong presence of familial network in transportation.  
 
-
+![Markdown Image][6]
 
 An overwhelming number of respondents responded that they do not need services like Uber or Lyft because they drive their own car. This was surprising because although American Community Survey data from 2006-2010 confirms that 76.3% of lower income employees in America used cars to get to work, rate of car ownership is lower in more dense urban areas; according to 2009-2013 ACS data, 67% of Philadelphian households own cars, and only 52% of Point Breeze households own cars. Moreover, of the 33 respondents, 48% did not have credit cards and 38% did not have a bank account. 
 
@@ -368,3 +368,4 @@ PolicyMap mapping of public transit density and income in West Philadelphia, Poi
 [3]:http://soyoungpark.github.io/assets/images/urbs/chart2.png
 [4]:http://soyoungpark.github.io/assets/images/urbs/chart3.png
 [5]:http://soyoungpark.github.io/assets/images/urbs/chart4.png
+[6]:http://soyoungpark.github.io/assets/images/urbs/chart5.png

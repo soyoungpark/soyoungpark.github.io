@@ -40,7 +40,7 @@ Keywords: sharing economy, ride-sharing services, transportation, transportation
 
 
 
-Table of Contents 
+### Table of Contents 
 - [Introduction](#intro)
 - [Research Questions](#researchq)
 - [Statistical Analysis](#stat)

@@ -13,7 +13,7 @@ hidden: true # don't count this post in blog pagination
 description: "NYC 5th Avenue traffic congestion real-time classifier using Tensorflow"
 category: project
 author: soyoungpark
-externalLink: true
+externalLink: false
 ---
 
 Trained a Tensorflow model, fine-tuning last layer of Inception v3, to build a traffic congestion level classifier. 

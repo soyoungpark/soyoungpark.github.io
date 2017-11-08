@@ -9,11 +9,11 @@ layout: page
 <h2>Main Skills</h2>
 
 <ul class="skill-list">
-	<li>Server-side programming: PHP, Python, JavaScript/NodeJS</li>
+	<li>Server-side programming: Python, NodeJS, PHP</li>
 	<li>Object-oriented programming, Interface design: Java</li>
 	<li>Web frameworks: CodeIgniter, Express (NodeJS), Flask</li>
 	<li>Scripting: bash, Python</li>
-	<li>Relational database design &amp; refactoring: MySQL</li>
+	<li>Relational database design, scaling &amp; refactoring: MySQL</li>
 	<li>API design (public &amp; private)</li>
 	<li>Amazon Web Services: EC2, S3, RDS</li>
 	<li>TDD and Continuous Integration</li>

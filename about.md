@@ -4,7 +4,11 @@ layout: page
 ---
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
-<p style="padding-top:30px;">I am a software engineer with interest in extracting meaningful insight from increasingly large volume of city-produced data. I earned a B.A. in [Computer and Information Sciences](http://www.cis.upenn.edu/index.php) and [Urban Studies](https://www.sas.upenn.edu/urban/) from University of Pennsylvania in August 2017. From 2015 to 2016 I took time off school to co-found and work full-time on an e-commerce delivery startup, [Epicerie](http://www.epicerie.kr). As a co-founder and full stack engineer, I solved numerous interesting engineering and business logic challenges. Feel free to reach me at <img style="height:20px; width:auto; display: inline-block; margin-bottom: -7px;" src="/assets/images/yosoy.png"/> (at) sas (dot) upenn (dot) edu, as well as on <a href="linkedin.com/soyoungpark05">LinkedIn</a> or <a href="twitter.com/soyoung_park">Twitter</a>. </p>
+<p style="padding-top:30px;">
+I am a software engineer with interest in extracting meaningful insight from increasingly large volume of city-produced data. I earned a B.A. in [Computer and Information Sciences](http://www.cis.upenn.edu/index.php) and [Urban Studies](https://www.sas.upenn.edu/urban/) from University of Pennsylvania in August 2017. 
+
+From 2015 to 2016 I took time off school to co-found and work full-time on an e-commerce delivery startup, [Epicerie](http://www.epicerie.kr). As a co-founder and full stack engineer, I solved numerous interesting engineering and business logic challenges. Feel free to reach me at <img style="height:20px; width:auto; display: inline-block; margin-bottom: -7px;" src="/assets/images/yosoy.png"/> (at) sas (dot) upenn (dot) edu, as well as on <a href="linkedin.com/soyoungpark05">LinkedIn</a> or <a href="twitter.com/soyoung_park">Twitter</a>. 
+</p>
 
 <h2>Main Skills</h2>
 

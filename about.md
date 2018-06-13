@@ -7,39 +7,33 @@ layout: page
 <p style="padding-top:30px;">
 I am a software engineer with interest in extracting meaningful insight from increasingly large volume of city-produced data. I earned a B.A. in [Computer and Information Sciences](http://www.cis.upenn.edu/index.php) and [Urban Studies](https://www.sas.upenn.edu/urban/) from University of Pennsylvania in August 2017. 
 
-From 2015 to 2016 I took time off school to co-found and work full-time on an e-commerce delivery startup, [Epicerie](http://www.epicerie.kr). As a co-founder and full stack engineer, I solved numerous interesting engineering and business logic challenges. Feel free to reach me at <img style="height:20px; width:auto; display: inline-block; margin-bottom: -7px;" src="/assets/images/yosoy.png"/> (at) sas (dot) upenn (dot) edu, as well as on <a href="linkedin.com/soyoungpark05">LinkedIn</a> or <a href="twitter.com/soyoung_park">Twitter</a>. 
+From 2015 to 2016 I co-founded and worked full-time on an e-commerce delivery startup, [Epicerie](http://www.epicerie.kr). As a co-founder and full stack engineer, I solved numerous interesting engineering and business logic challenges. Feel free to reach me at <img style="height:20px; width:auto; display: inline-block; margin-bottom: -7px;" src="/assets/images/yosoy.png"/> (at) sas (dot) upenn (dot) edu, as well as on <a href="linkedin.com/soyoungpark05">LinkedIn</a> or <a href="twitter.com/soyoung_park">Twitter</a>. 
 </p>
 
 <h2>Main Skills</h2>
 
 <ul class="skill-list">
-	<li>Server-side programming: Python, NodeJS, PHP</li>
+	<li>RESTful API design: NodeJS, PHP</li>
 	<li>Object-oriented programming, Interface design: Java</li>
-	<li>Web frameworks: CodeIgniter, Express (NodeJS), Flask</li>
-	<li>Scripting: bash, Python</li>
-	<li>Relational database design, scaling &amp; refactoring: MySQL</li>
-	<li>API design (public &amp; private)</li>
+	<li>Data ETL: bash &amp; Python</li>
+	<li>Tensorflow, Caffe</li>
+	<li>Full Stack Web Development: Express (NodeJS), CodeIgniter(PHP)</li>
+	<li>Databases: PostgreSQL, MySQL, Cassandra, Scylla</li>
 	<li>Amazon Web Services: EC2, S3, RDS</li>
 	<li>TDD and Continuous Integration</li>
-	<li>Front-end: HTML, CSS, JavaScript/jQuery</li>
-	<li>Templating engines: smarty (PHP), jade (NodeJS)</li>
-	<li>C</li>
+	<li>Docker dev &amp; deploy with Marathon</li>
+	<li>Front-end: HTML, CSS, JavaScript/jQuery, templating engines(smarty, jade)</li>
 </ul>
 
 <h2>Have Experience</h2>
 
 <ul class="skill-list">
-	<li>Docker development</li>
-	<li>Tensorflow</li>
 	<li>OCaml</li>
 	<li>Prolog</li>
-	<li>Design Pattern</li>
 	<li>Assembly Language</li>
-	<li>Ruby on Rails</li>
+	<li>Ruby on Rails, Flask(Python)</li>
 	<li>Arduino</li>
-	<li>*nix</li>
-	<li>C++</li>
-	<li>C#</li>
+	<li>C</li>
 </ul>
 
 <h2>Selected Projects</h2>

@@ -1,6 +1,6 @@
 # main text of home
 name: SoYoung Park
-bio: software engineer, focusing on urban data. Penn'17 
+bio: software engineer @twitter 
 
 # twitter summary info
 description: A blog about technology and stuff related
@@ -17,7 +17,6 @@ resume-external: false
 resume-url: assets/resume.pdf
 
 url: http://soyoungpark.github.io
-# your url: http://USERNAME.github.io
 
 permalink: /:title/
 
@@ -50,7 +49,7 @@ github: soyoungpark
 # medium: medium
 # vimeo: myvimeo
 # lanyrd: mylanyrd
-email: soyoung@sas.upenn.edu
+email: soyoung.park05@gmail.com
 
 authors:
     soyoungpark:

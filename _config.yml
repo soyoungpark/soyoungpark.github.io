@@ -35,21 +35,13 @@ disqus:
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
 twitter: soyoung_park
-# google: mygoogle
 # instagram: myinstagram
-# pinterest: mypinterest
 linkedin: soyoungpark05
-# youtube: myyoutube
-# spotify: myspotify
 github: soyoungpark
-# lastfm: mylastfm
 # stackoverflow: 3645789/ampersands
-# quora: userquora
 # reddit: username
 # medium: medium
-# vimeo: myvimeo
-# lanyrd: mylanyrd
-email: soyoung.park05@gmail.com
+# email: n/a
 
 authors:
     soyoungpark:
@@ -58,12 +50,12 @@ authors:
         external-image: false
         picture: assets/images/soyoungpark.jpg
         twitter: soyoung_park
-    jamesfoster:
-        name: James Foster
-        bio: A Man who develops software with coffee
-        external-image: false
-        picture: assets/images/james.jpg
-        twitter: jamesfoster
+    # jamesfoster:
+    #     name: James Foster
+    #     bio: A Man who develops software with coffee
+    #     external-image: false
+    #     picture: assets/images/james.jpg
+    #     twitter: jamesfoster
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal

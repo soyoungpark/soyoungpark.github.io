@@ -5,9 +5,9 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
 <p style="padding-top:30px;">
-I am a software engineer with interest in extracting meaningful insight from increasingly large volume of city-produced data. I earned a B.A. in [Computer and Information Sciences](http://www.cis.upenn.edu/index.php) and [Urban Studies](https://www.sas.upenn.edu/urban/) from University of Pennsylvania in August 2017. 
+I am a software engineer with interest in transportation and cities. I earned a B.A. in <a href="http://www.cis.upenn.edu/index.php">Computer and Information Sciences</a> and <a href="https://www.sas.upenn.edu/urban/">Urban Studies</a> from University of Pennsylvania in August 2017. 
 
-From 2015 to 2016 I co-founded and worked full-time on an e-commerce delivery startup, [Epicerie](http://www.epicerie.kr). As a co-founder and full stack engineer, I solved numerous interesting engineering and business logic challenges. Feel free to reach me at <img style="height:20px; width:auto; display: inline-block; margin-bottom: -7px;" src="/assets/images/yosoy.png"/> (at) sas (dot) upenn (dot) edu, as well as on <a href="linkedin.com/soyoungpark05">LinkedIn</a> or <a href="twitter.com/soyoung_park">Twitter</a>. 
+From 2015 to 2016 I co-founded and worked full-time on an e-commerce delivery startup, Epicerie, which was acquired by <a href="https://www.bloomberg.com/profile/company/0000065D:US">Inmost Partners</a> in 2017. Feel free to reach me at <a href="linkedin.com/soyoungpark05">LinkedIn</a> if you want to chat. 
 </p>
 
 <h2>Main Skills</h2>
@@ -25,18 +25,7 @@ From 2015 to 2016 I co-founded and worked full-time on an e-commerce delivery st
 	<li>Front-end: HTML, CSS, JavaScript/jQuery, templating engines(smarty, jade)</li>
 </ul>
 
-<h2>Have Experience</h2>
-
-<ul class="skill-list">
-	<li>OCaml</li>
-	<li>Prolog</li>
-	<li>Assembly Language</li>
-	<li>Ruby on Rails, Flask(Python)</li>
-	<li>Arduino</li>
-	<li>C</li>
-</ul>
-
-<h2>Selected Projects</h2>
+<h2>Select Projects</h2>
 
 <ul>
 	<li><a href="http://epicerie.kr">Epicerie - freshness delivered</a></li>

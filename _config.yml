@@ -3,7 +3,7 @@ name: SoYoung Park
 bio: software engineer @twitter 
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: personal webpage, with some blog articles
 
 # if it's an external image, update below for true
 # better with square images
@@ -36,7 +36,7 @@ disqus:
 # facebook: myfacebook
 twitter: soyoung_park
 # instagram: myinstagram
-linkedin: soyoungpark05
+linkedin: soyoungprk
 github: soyoungpark
 # stackoverflow: 3645789/ampersands
 # reddit: username
@@ -46,7 +46,7 @@ github: soyoungpark
 authors:
     soyoungpark:
         name: SOYOUNG PARK
-        bio: computer science + urban studies 
+        bio: eng @twtr 
         external-image: false
         picture: assets/images/soyoungpark.jpg
         twitter: soyoung_park

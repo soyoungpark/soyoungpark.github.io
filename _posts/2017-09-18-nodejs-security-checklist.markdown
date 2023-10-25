@@ -4,6 +4,7 @@ layout: post
 date: 2017-09-18 18:52
 image: /assets/images/nodejs.png
 headerImage: false
+hidden: true # don't count this post in blog pagination
 tag: 
 - security 
 - webdev

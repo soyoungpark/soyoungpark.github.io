@@ -4,30 +4,14 @@ layout: post
 date: 2023-10-24 23:29
 tag: 
 - software-engineering 
-image: /assets/images/tensorflowtraffic/tf.png
 headerImage: false
 projects: false
 hidden: false # don't count this post in blog pagination
-description: "NYC 5th Avenue traffic congestion real-time classifier using Tensorflow"
+description: "Thoughts on scaling oneself."
 category: blog
 author: soyoungpark
 externalLink: false
 ---
-
-Thoughts on scaling oneself. 
-
----
-
-### Tech stack
-
-- Python
-- Tensorflow
-- Docker
-- bash
-
----
-
-### Motivation
 
 If you're working in tech, and/or are interested in startups, chances are you've come across the word 'scale' quite often. Masters of scale, blitzscaling, "does this business model scale?", etc. 
 

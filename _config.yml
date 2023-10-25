@@ -1,9 +1,10 @@
 # main text of home
 name: SoYoung Park
-bio: software engineer @twitter 
+bio: software engineer @pinterest 
 
 # twitter summary info
-description: personal webpage, with some blog articles
+description: SoYoung's bio
+
 
 # if it's an external image, update below for true
 # better with square images
@@ -46,7 +47,7 @@ github: soyoungpark
 authors:
     soyoungpark:
         name: SOYOUNG PARK
-        bio: eng @twtr 
+        bio: eng @pinterest 
         external-image: false
         picture: assets/images/soyoungpark.jpg
         twitter: soyoung_park
@@ -57,8 +58,8 @@ authors:
 width: normal
 
 # if you don't need pagination, comment the *paginate* configs below
-# paginate: 5
-# paginate_path: "blog/:num/"
+paginate: 5
+paginate_path: "blog/:num/"
 
 # if you don't need projects, comment the *projects* configs below
 # projects: true

@@ -13,7 +13,7 @@ picture: assets/images/soyoungpark.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
-resume: true
+resume: false
 resume-external: false
 resume-url: assets/resume.pdf
 
@@ -66,7 +66,7 @@ projects: false
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+# blog: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
